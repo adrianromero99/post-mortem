@@ -1,37 +1,27 @@
-## Welcome to GitHub Pages
+## Análisis Post Mortem
 
-You can use the [editor on GitHub](https://github.com/adrianromero99/post-mortem/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Este docucmento sirve como una retrospectiva del trabajo Spotifiuby que realizamos para la materia Taller de Programación 2 en el primer cuatrimestre de 2022. Aquí incluimos problemas a los que nos enfrentamos y posibles mejoras para agregar a futuro.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Problemas
 
-### Markdown
+#### Falta de tiempo para la materia 
+Es posible que hayamos subestimado el tiempo necesario que se le debe dedicar a la materia. En nuestro caso particular, nos anotamos a varias materias que requirieron mucho tiempo por fuera de clase por lo que no le pudimos dedicarle el tiempo que creemos necesario para sacar un producto de mayor calidad.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### Falta de experiencia en un proyecto grande en la parte de front end 
+Al no contar con experencia en el desarrollo de aplicaciones en front end, creemos que tuvimos malas decisiones en cuanto a tecnologia al elegir android debido a que creemos que es mas complicado que react native. Además los desarrollos frontend nos llevaron mucho más tiempo del esperado en general. 
 
-```markdown
-Syntax highlighted code block
+### Mejoras
 
-# Header 1
-## Header 2
-### Header 3
+#### Encriptar la contraseña
+Por cuestiones de seguridad, poder encriptar realmente la contraseña de los usuarios. 
 
-- Bulleted
-- List
+#### Tener diferentes ambientes en firebase
+En este momento solo tenemos uno por lo que estaría bueno tener separados producción y test.
 
-1. Numbered
-2. List
+#### Tener un ambiente de produccion en el service de cobros
 
-**Bold** and _Italic_ and `Code` text
+#### Tener un servicio separado para metricas
+Por falta de tiempo simplemente agregamos los endpoints a los servicios de canciones, usuarios y transacciones. Hubiera estado bueno tener un servicio especial de métricas.
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/adrianromero99/post-mortem/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+### Mejoras varias de UX/UI
+Debido a que solamente tenemos un conocimiento básico en términos de UX/UI algunas secciones de la aplicacion movil y del backoffice web podrian mejorarse visual, esteticamente y en terminos de comodidad para los usuarios.
